@@ -1,0 +1,13 @@
+h1 {
+  color: pink;
+}
+
+p {
+  color: lavender;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
