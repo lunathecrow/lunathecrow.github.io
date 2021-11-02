@@ -88,9 +88,11 @@ img {
 }
 
 /* Begin Portfolio Gallery Styles */
+.portfolio-container {
+  margin: 1rem auto 0 auto;
+}
 
 .portfolio-gallery {
-  margin: 1rem auto 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 0.5rem;
@@ -116,6 +118,7 @@ img {
 .portfolio-gallery h1 {
   font-size: 2rem;
   line-height: 2rem;
+  padding-left: 1rem;
 }
 
 /* Begin Media Queries */
@@ -128,6 +131,10 @@ img {
     font-size: 2rem;
     line-height: 2rem;
   }
+  .portfolio-container h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
 }
 
 @media (min-width: 920px) {
@@ -138,5 +145,9 @@ img {
   .hero-text {
     font-size: 4rem;
     line-height: 4rem;
+  }
+  .portfolio-container h1 {
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
